@@ -1,0 +1,221 @@
+
+.VK {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  nav > h1 {
+    display: inline-block;
+    margin-left: 240px;
+    color: #ffffff;
+    margin-right: 100px;
+  }
+  nav {
+    margin-top: 0px;
+    background-color: #486a8d;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecf1;
+  }
+  .conteiner {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+  }
+  .conteiner .menu {
+    /* flex: 1; */
+    margin-left: 200px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .conteiner .menu > ol > li {
+    display: flex;
+    color: #486a8d;
+    padding: 6px;
+    list-style: none;
+    font-size: 13px;
+    align-items: flex-start;
+    padding-right: 0px;
+  }
+  .main-friends { 
+    display: flex;
+    margin-left: 80px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    flex-direction: column;
+  }
+  .stats { 
+    display: flex;
+    border-bottom: 0.5px solid #e9ecf1;
+    align-items: flex-start;
+    max-height: 45px;
+  }
+  .stats  > h5 { 
+    color: #333435;
+    margin-left: 5px;
+    font-weight: normal;
+  }
+  .stats > p { 
+    color: #b8b8bb;
+    margin-left: 7px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .stats > button { 
+    padding: 5px;
+    height: 25px;
+    background-color: #486a8d;
+    color: #ffffff;
+    margin-left: 550px;
+    margin-top: 18px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 0px;
+  }
+  .friends { 
+    margin-top: 20px;
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+  }
+  .avatars { 
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .humans { 
+    padding-top: 10px;
+    padding-top: 10px;
+    border-top: 0.5px solid #e9ecf1;
+    border-bottom: 0.5 px solid #e9ecf1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    margin-left: 5px;
+  }
+.names { 
+    margin-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #486a8d;
+    font-size: 15px;
+}
+.job { 
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: #b8b8bb;
+    font-size: 13px;
+}
+.messege { 
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 13px;
+    color: #5f8fc0;
+}
+.probably-friends { 
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 200px;
+    flex-direction: column;
+}
+.list { 
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.list2 { 
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.blocks > p {
+    float: left;
+    padding: 5px;
+    font-size: 13px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.maintext { 
+    float: left;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #333435;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    
+}
+.blocks-main { 
+    float: left;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #5f8fc0;
+}
+.probably-fr2 { 
+    display: flex;
+    background-color: #ffffff;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+.third { 
+    display: flex;
+    flex-direction: column;
+}
+.list2 > div > p { 
+    float: left;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: none;
+    color: #3f3f42;
+    flex-direction: column;
+}
+.avatars2 { 
+    width: 43px;
+    height: 43px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 0px;
+}
+.blocks2 { 
+    margin: 5px;
+}
+.info2 { 
+    margin-left: 9px;
+}
+.names2 { 
+    font-weight: none ;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    color: #486a8d;
+}
+.blocks2 { 
+    display: flex;
+    margin-bottom: 2px;
+}
+.job2 { 
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 13px;
+    color:#b8b8bb;
+}
+.messege2 { 
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 11px;
+    color: #5f8fc0;
+}
